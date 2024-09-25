@@ -98,11 +98,6 @@ export default function Content() {
       />
       <div className="w-full flex flex-col items-center justify-center gap-2">
         <LinkHolder
-          linkText={"or"}
-          linkTo={"/resetPassword"}
-          linkTitle={"Forgot Password"}
-        />
-        <LinkHolder
           linkText={`Don't have an account?`}
           linkTo={"/signup"}
           linkTitle={"Sign up"}

@@ -23,7 +23,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div role={"main"}>{children}</div>
+        <div role={"main"} className="max-w-[100vw]">
+          {children}
+        </div>
       </body>
     </html>
   );

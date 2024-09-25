@@ -5,7 +5,7 @@ export default function LinkHolder(props) {
 
   return (
     <div className="w-full flex flex-row items-center justify-center">
-      <p className="text-[13px] text-primary">
+      <p className="text-[13px]">
         {linkText}&nbsp;
         <Link href={linkTo} className="text-blue underline">
           {linkTitle}

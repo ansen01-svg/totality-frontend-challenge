@@ -9,18 +9,18 @@ export default function UnauthenticatedContent({ handleClose }) {
   };
 
   return (
-    <div className="w-[300px] px-5 py-7 flex flex-col items-center justify-center gap-4">
+    <div className="w-[250px] px-5 py-7 flex flex-col items-center justify-center gap-4">
       <button
-        className="w-full h-8 bg-secondary rounded text-white text-[15px] font-medium"
+        className="w-full h-8 bg-[#e71c28] rounded text-white text-[14px]"
         onClick={() => handleClick("/signin")}
       >
         Sign in
       </button>
       <button
-        className="w-full text-[15px] text-primary font-medium"
+        className="w-full text-[14px] text-blue"
         onClick={() => handleClick("/signup")}
       >
-        Create a new account
+        Create an account
       </button>
     </div>
   );

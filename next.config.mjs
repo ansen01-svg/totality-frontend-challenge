@@ -26,7 +26,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "stimg.cardekho.com",
+        hostname: "images.nobroker.in",
       },
     ],
   },

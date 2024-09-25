@@ -4,7 +4,7 @@
     "type": "2 BHK Apartment",
     "city": "Guwahati",
     "locality": "Beltola",
-    "price": "10,000",
+    "price": "10000",
     "area": 800,
     "status": "furnished",
     "deposit": "6000",
@@ -13,14 +13,15 @@
       "https://images.nobroker.in/images/8a9f8303910361610191037f74300fe4/8a9f8303910361610191037f74300fe4_20954_420907_medium.jpg",
       "https://images.nobroker.in/images/8a9f8303910361610191037f74300fe4/8a9f8303910361610191037f74300fe4_93167_608388_medium.jpg",
       "https://images.nobroker.in/images/8a9f8303910361610191037f74300fe4/8a9f8303910361610191037f74300fe4_92637_820763_medium.jpg"
-    ]
+    ],
+    "amenities": ["Parking", "Lift", "Power Backup", "Security Personal"]
   },
   {
     "id": 2,
     "type": "3 BHK Apartment",
     "city": "Guwahati",
     "locality": "Six Mile",
-    "price": "15,000",
+    "price": "15000",
     "area": 1100,
     "status": "furnished",
     "deposit": "8000",
@@ -29,6 +30,13 @@
       "https://images.nobroker.in/images/ff80818166009ca3016600d7c2402bbf/ff80818166009ca3016600d7c2402bbf_70820_148975_medium.jpg",
       "https://images.nobroker.in/images/ff80818166009ca3016600d7c2402bbf/ff80818166009ca3016600d7c2402bbf_215438_816810_medium.jpg",
       "https://images.nobroker.in/images/8a9f8303910361610191037f74300fe4/8a9f8303910361610191037f74300fe4_92637_820763_medium.jpg"
+    ],
+    "amenities": [
+      "Parking",
+      "Lift",
+      "Power Backup",
+      "Security Personal",
+      "Gas Pipeline"
     ]
   },
   {
@@ -36,7 +44,7 @@
     "type": "3 BHK Apartment",
     "city": "Bangalore",
     "locality": "Hebbal",
-    "price": "65,000",
+    "price": "65000",
     "area": 1650,
     "status": "furnished",
     "deposit": "350,000",
@@ -45,6 +53,14 @@
       "https://images.nobroker.in/images/8a9fa782824deb0101824e21e7132a83/8a9fa782824deb0101824e21e7132a83_58090_566119_medium.jpg",
       "https://images.nobroker.in/images/8a9fa782824deb0101824e21e7132a83/8a9fa782824deb0101824e21e7132a83_58904_356822_medium.jpg",
       "https://images.nobroker.in/images/8a9fa782824deb0101824e21e7132a83/8a9fa782824deb0101824e21e7132a83_22060_583472_medium.jpg"
+    ],
+    "amenities": [
+      "Parking",
+      "Lift",
+      "Power Backup",
+      "Security Personal",
+      "Gym",
+      "Swimming Pool"
     ]
   },
   {
@@ -52,7 +68,7 @@
     "type": "2 BHK Apartment",
     "city": "Bangalore",
     "locality": "Bagalur",
-    "price": "22,000",
+    "price": "22000",
     "area": 999,
     "status": "furnished",
     "deposit": "100,000",
@@ -61,14 +77,15 @@
       "https://images.nobroker.in/images/8a9f8303910361610191037f74300fe4/8a9f8303910361610191037f74300fe4_20954_420907_medium.jpg",
       "https://images.nobroker.in/images/8a9f8303910361610191037f74300fe4/8a9f8303910361610191037f74300fe4_93167_608388_medium.jpg",
       "https://images.nobroker.in/images/8a9f8303910361610191037f74300fe4/8a9f8303910361610191037f74300fe4_92637_820763_medium.jpg"
-    ]
+    ],
+    "amenities": ["Parking", "Lift", "Power Backup", "Security Personal"]
   },
   {
     "id": 5,
     "type": "3 BHK Apartment",
     "city": "Bangalore",
     "locality": "Varthur",
-    "price": "58,000",
+    "price": "58000",
     "area": 1685,
     "status": "furnished",
     "deposit": "300,000",
@@ -77,14 +94,15 @@
       "https://images.nobroker.in/images/ff80818166009ca3016600d7c2402bbf/ff80818166009ca3016600d7c2402bbf_70820_148975_medium.jpg",
       "https://images.nobroker.in/images/ff80818166009ca3016600d7c2402bbf/ff80818166009ca3016600d7c2402bbf_215438_816810_medium.jpg",
       "https://images.nobroker.in/images/8a9f8303910361610191037f74300fe4/8a9f8303910361610191037f74300fe4_92637_820763_medium.jpg"
-    ]
+    ],
+    "amenities": ["Parking", "Lift", "Power Backup", "Security Personal"]
   },
   {
     "id": 6,
     "type": "2 BHK Apartment",
     "city": "Bangalore",
     "locality": "Varthur",
-    "price": "40,000",
+    "price": "40000",
     "area": 1400,
     "status": "furnished",
     "deposit": "250,000",
@@ -93,14 +111,15 @@
       "https://images.nobroker.in/images/8a9fa782824deb0101824e21e7132a83/8a9fa782824deb0101824e21e7132a83_58090_566119_medium.jpg",
       "https://images.nobroker.in/images/8a9fa782824deb0101824e21e7132a83/8a9fa782824deb0101824e21e7132a83_58904_356822_medium.jpg",
       "https://images.nobroker.in/images/8a9fa782824deb0101824e21e7132a83/8a9fa782824deb0101824e21e7132a83_22060_583472_medium.jpg"
-    ]
+    ],
+    "amenities": ["Parking", "Lift", "Power Backup", "Security Personal"]
   },
   {
     "id": 7,
     "type": "3 BHK Apartment",
     "city": "Mumbai",
     "locality": "Borivali East",
-    "price": "85,000",
+    "price": "85000",
     "area": 1100,
     "status": "furnished",
     "deposit": "300,000",
@@ -109,6 +128,14 @@
       "https://images.nobroker.in/images/8a9f8c838dc6de56018dc73a2bb339e5/8a9f8c838dc6de56018dc73a2bb339e5_60928_702601_medium.jpg",
       "https://images.nobroker.in/images/8a9f8c838dc6de56018dc73a2bb339e5/8a9f8c838dc6de56018dc73a2bb339e5_93316_675908_medium.jpg",
       "https://images.nobroker.in/images/8a9f8c838dc6de56018dc73a2bb339e5/8a9f8c838dc6de56018dc73a2bb339e5_46242_172554_medium.jpg"
+    ],
+    "amenities": [
+      "Parking",
+      "Lift",
+      "Power Backup",
+      "Security Personal",
+      "Swimming Pool",
+      "Gym"
     ]
   },
   {
@@ -116,7 +143,7 @@
     "type": "2 BHK Apartment",
     "city": "Mumbai",
     "locality": "Mulund West",
-    "price": "47,000",
+    "price": "47000",
     "area": 750,
     "status": "furnished",
     "deposit": "250,000",
@@ -125,14 +152,15 @@
       "https://images.nobroker.in/images/8a9f8303910361610191037f74300fe4/8a9f8303910361610191037f74300fe4_20954_420907_medium.jpg",
       "https://images.nobroker.in/images/8a9f8303910361610191037f74300fe4/8a9f8303910361610191037f74300fe4_93167_608388_medium.jpg",
       "https://images.nobroker.in/images/8a9f8303910361610191037f74300fe4/8a9f8303910361610191037f74300fe4_92637_820763_medium.jpg"
-    ]
+    ],
+    "amenities": ["Parking", "Lift", "Power Backup", "Security Personal"]
   },
   {
     "id": 9,
     "type": "3 BHK Apartment",
     "city": "Mumbai",
     "locality": "Matunga West",
-    "price": "160,000",
+    "price": "160000",
     "area": 1650,
     "status": "furnished",
     "deposit": "500,000",
@@ -141,6 +169,16 @@
       "https://images.nobroker.in/images/ff80818166009ca3016600d7c2402bbf/ff80818166009ca3016600d7c2402bbf_70820_148975_medium.jpg",
       "https://images.nobroker.in/images/ff80818166009ca3016600d7c2402bbf/ff80818166009ca3016600d7c2402bbf_215438_816810_medium.jpg",
       "https://images.nobroker.in/images/8a9f8303910361610191037f74300fe4/8a9f8303910361610191037f74300fe4_92637_820763_medium.jpg"
+    ],
+    "amenities": [
+      "Parking",
+      "Lift",
+      "Power Backup",
+      "Security Personal",
+      "Swimming Pool",
+      "Gym",
+      "Gas Pipeline",
+      "Laundry"
     ]
   },
   {
@@ -148,7 +186,7 @@
     "type": "2 BHK Apartment",
     "city": "Mumbai",
     "locality": "Mulund West",
-    "price": "65,000",
+    "price": "65000",
     "area": 1200,
     "status": "furnished",
     "deposit": "200,000",
@@ -157,14 +195,15 @@
       "https://images.nobroker.in/images/8a9f8c838dc6de56018dc73a2bb339e5/8a9f8c838dc6de56018dc73a2bb339e5_60928_702601_medium.jpg",
       "https://images.nobroker.in/images/8a9f8c838dc6de56018dc73a2bb339e5/8a9f8c838dc6de56018dc73a2bb339e5_93316_675908_medium.jpg",
       "https://images.nobroker.in/images/8a9f8c838dc6de56018dc73a2bb339e5/8a9f8c838dc6de56018dc73a2bb339e5_46242_172554_medium.jpg"
-    ]
+    ],
+    "amenities": ["Parking", "Lift", "Power Backup", "Security Personal"]
   },
   {
     "id": 11,
     "type": "2 BHK Apartment",
     "city": "Delhi / NCR",
     "locality": "Neb Sarai",
-    "price": "17,000",
+    "price": "17000",
     "area": 900,
     "status": "furnished",
     "deposit": "17000",
@@ -173,6 +212,13 @@
       "https://images.nobroker.in/images/8a9fab827ebd1c0a017ebdbb4afa18d3/8a9fab827ebd1c0a017ebdbb4afa18d3_43009_959276_medium.jpg",
       "https://images.nobroker.in/images/8a9fab827ebd1c0a017ebdbb4afa18d3/8a9fab827ebd1c0a017ebdbb4afa18d3_26561_17163_medium.jpg",
       "https://images.nobroker.in/images/8a9fab827ebd1c0a017ebdbb4afa18d3/8a9fab827ebd1c0a017ebdbb4afa18d3_99003_242309_medium.jpg"
+    ],
+    "amenities": [
+      "Parking",
+      "Lift",
+      "Power Backup",
+      "Security Personal",
+      "Swimming Pool"
     ]
   },
   {
@@ -180,7 +226,7 @@
     "type": "3 BHK Apartment",
     "city": "Delhi / NCR",
     "locality": "Sector 76",
-    "price": "33,000",
+    "price": "33000",
     "area": 15000,
     "status": "furnished",
     "deposit": "60000",
@@ -189,6 +235,13 @@
       "https://images.nobroker.in/images/ff80818166009ca3016600d7c2402bbf/ff80818166009ca3016600d7c2402bbf_70820_148975_medium.jpg",
       "https://images.nobroker.in/images/ff80818166009ca3016600d7c2402bbf/ff80818166009ca3016600d7c2402bbf_215438_816810_medium.jpg",
       "https://images.nobroker.in/images/8a9f8303910361610191037f74300fe4/8a9f8303910361610191037f74300fe4_92637_820763_medium.jpg"
+    ],
+    "amenities": [
+      "Parking",
+      "Lift",
+      "Power Backup",
+      "Security Personal",
+      "Gas Pipeline"
     ]
   },
   {
@@ -196,7 +249,7 @@
     "type": "3 BHK Apartment",
     "city": "Delhi / NCR",
     "locality": "Hauz Khas",
-    "price": "125,000",
+    "price": "125000",
     "area": 2000,
     "status": "furnished",
     "deposit": "250,000",
@@ -205,6 +258,16 @@
       "https://images.nobroker.in/images/8a9f8c838dc6de56018dc73a2bb339e5/8a9f8c838dc6de56018dc73a2bb339e5_60928_702601_medium.jpg",
       "https://images.nobroker.in/images/8a9f8c838dc6de56018dc73a2bb339e5/8a9f8c838dc6de56018dc73a2bb339e5_93316_675908_medium.jpg",
       "https://images.nobroker.in/images/8a9f8c838dc6de56018dc73a2bb339e5/8a9f8c838dc6de56018dc73a2bb339e5_46242_172554_medium.jpg"
+    ],
+    "amenities": [
+      "Parking",
+      "Lift",
+      "Power Backup",
+      "Security Personal",
+      "Gym",
+      "Gas Pipeline",
+      "Laundry",
+      "Club House"
     ]
   },
   {
@@ -212,7 +275,7 @@
     "type": "3 BHK Apartment",
     "city": "Delhi / NCR",
     "locality": "Neb Sarai",
-    "price": "65,000",
+    "price": "65000",
     "area": 1350,
     "status": "furnished",
     "deposit": "100,000",
@@ -221,6 +284,13 @@
       "https://images.nobroker.in/images/8a9fab827ebd1c0a017ebdbb4afa18d3/8a9fab827ebd1c0a017ebdbb4afa18d3_43009_959276_medium.jpg",
       "https://images.nobroker.in/images/8a9fab827ebd1c0a017ebdbb4afa18d3/8a9fab827ebd1c0a017ebdbb4afa18d3_26561_17163_medium.jpg",
       "https://images.nobroker.in/images/8a9fab827ebd1c0a017ebdbb4afa18d3/8a9fab827ebd1c0a017ebdbb4afa18d3_99003_242309_medium.jpg"
+    ],
+    "amenities": [
+      "Parking",
+      "Lift",
+      "Power Backup",
+      "Security Personal",
+      "Swimming Pool"
     ]
   },
   {
@@ -228,7 +298,7 @@
     "type": "3 BHK Apartment",
     "city": "Delhi / NCR",
     "locality": "Hauz Khas",
-    "price": "55,000",
+    "price": "55000",
     "area": 1350,
     "status": "furnished",
     "deposit": "100,000",
@@ -237,6 +307,13 @@
       "https://images.nobroker.in/images/8a9faf827e813e1f017e85571b1f0480/8a9faf827e813e1f017e85571b1f0480_929656_555619_medium.jpg",
       "https://images.nobroker.in/images/8a9f8c838dc6de56018dc73a2bb339e5/8a9f8c838dc6de56018dc73a2bb339e5_93316_675908_medium.jpg",
       "https://images.nobroker.in/images/8a9fa782824deb0101824e21e7132a83/8a9fa782824deb0101824e21e7132a83_22060_583472_medium.jpg"
+    ],
+    "amenities": [
+      "Parking",
+      "Lift",
+      "Power Backup",
+      "Security Personal",
+      "Club House"
     ]
   }
 ]

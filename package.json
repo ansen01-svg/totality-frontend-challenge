@@ -19,7 +19,8 @@
     "next": "14.2.13",
     "react": "^18",
     "react-dom": "^18",
-    "sharp": "^0.33.5"
+    "sharp": "^0.33.5",
+    "swiper": "^11.1.14"
   },
   "devDependencies": {
     "eslint": "^8",

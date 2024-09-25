@@ -1,14 +1,14 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { styled } from "@mui/material/styles";
 import InputBase from "@mui/material/InputBase";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import SearchRoundedIcon from "@mui/icons-material/SearchRounded";
-import { cities, locationData } from "@/app/utils/array-data";
+import { cities } from "@/app/utils/array-data";
 
 const BootstrapInput = styled(InputBase)(({ theme }) => ({
   "& .MuiInputBase-input": {
@@ -39,40 +39,19 @@ const BootstrapInput = styled(InputBase)(({ theme }) => ({
 
 export default function FormHolder() {
   const [city, setCity] = useState(cities[0]);
-  const [localityOptions, setLocalityOptions] = useState(
-    locationData[1].localities
-  );
-  const [selectedLocality, setSelectedLocality] = useState("All");
 
   const router = useRouter();
-
-  // set localities options for selected city
-  useEffect(() => {
-    if (city) {
-      const filteredCity = locationData.find(
-        (location) => location.city === city
-      );
-      setLocalityOptions(filteredCity.localities);
-      setSelectedLocality("All");
-    }
-  }, [city]);
 
   const handleCityChange = (e) => {
     setCity(e.target.value);
   };
 
-  const handleLocalityChange = (e) => {
-    setSelectedLocality(e.target.value);
-  };
-
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (!city || !selectedLocality) return;
+    if (!city) return;
 
-    router.push(`/properties?city=${city}&locality=${selectedLocality}`);
-    setCity(cities[0]);
-    setSelectedLocality(locationData[1].localities);
+    router.push(`/properties?city=${city}`);
   };
 
   return (
@@ -81,7 +60,7 @@ export default function FormHolder() {
         className="w-full h-full flex items-center justify-center"
         onSubmit={handleSubmit}
       >
-        <div className="w-[25%] h-full border-r-[1px] border-slate-200 lg:w-[20%]">
+        <div className="flex-1 h-full border-r-[1px] border-slate-200 lg:w-[20%]">
           <FormControl fullWidth variant="standard">
             <Select
               value={city}
@@ -92,30 +71,6 @@ export default function FormHolder() {
                 return (
                   <MenuItem key={index} value={city} sx={{ fontSize: "14px" }}>
                     {city}
-                  </MenuItem>
-                );
-              })}
-            </Select>
-          </FormControl>
-        </div>
-        <div className="flex-1 h-full">
-          <FormControl fullWidth variant="standard">
-            <Select
-              value={selectedLocality}
-              onChange={handleLocalityChange}
-              input={<BootstrapInput />}
-            >
-              <MenuItem value="All" sx={{ fontSize: "14px" }}>
-                All
-              </MenuItem>
-              {localityOptions.map((locality, index) => {
-                return (
-                  <MenuItem
-                    key={index}
-                    value={locality}
-                    sx={{ fontSize: "14px" }}
-                  >
-                    {locality}
                   </MenuItem>
                 );
               })}

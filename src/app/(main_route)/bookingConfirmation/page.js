@@ -1,4 +1,3 @@
-import { cookies } from "next/headers";
 import PageContent from "./page_content";
 
 export const metadata = {
@@ -8,12 +7,10 @@ export const metadata = {
     "Explore a wide selection of rental cars at Carko.in. From economy to luxury, find the perfect vehicle for your needs. Book your car rental today!",
 };
 
-export default function Home({ searchParams }) {
-  const token = cookies().get("token")?.value || "";
-
+export default function Home() {
   return (
     <div className="w-full px-6 lg:px-12 flex items-center justify-center">
-      <PageContent searchParams={searchParams} token={token} />
+      <PageContent />
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 
 const publicPath = ["/signin", "/signup"];
-const privatePath = ["/checkout"];
+const privatePath = ["/checkout", "/bookingConfirmation"];
 
 export async function middleware(request) {
   const path = request.nextUrl.pathname;
@@ -24,5 +24,5 @@ export async function middleware(request) {
 }
 
 export const config = {
-  matcher: ["/signin", "/signup", "/checkout"],
+  matcher: ["/signin", "/signup", "/checkout", "/bookingConfirmation"],
 };

@@ -15,10 +15,11 @@ export default function Content() {
 
   const router = useRouter();
 
+  // get callback url
   useEffect(() => {
     const currentUrl = window.location.href;
 
-    if (currentUrl.includes("/car")) {
+    if (currentUrl.includes("/bag")) {
       setCallbackUrl(currentUrl.split("callbackUrl=")[1]);
     }
   }, []);

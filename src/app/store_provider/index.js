@@ -12,6 +12,9 @@ const CartContext = createContext();
 
 const cartReducer = (state, { type, payload }) => {
   switch (type) {
+    case "INITIALIZE_CART":
+      return payload;
+
     case "ADD_ITEM_TO_CART":
       return [...state, payload];
 
@@ -23,23 +26,27 @@ const cartReducer = (state, { type, payload }) => {
   }
 };
 
-// get initial cart state from sessionStorage
-const getInitialCart = () => {
-  if (typeof window !== "undefined") {
-    const storedCart = sessionStorage.getItem("cart");
-    return storedCart ? JSON.parse(storedCart) : [];
-  }
-
-  return [];
-};
-
 export const CartProvider = ({ children }) => {
-  const [cart, dispatch] = useReducer(cartReducer, [], getInitialCart);
+  const [cartInitialized, setCartInitialized] = useState(false);
+  const [cart, dispatch] = useReducer(cartReducer, []);
+
+  // Fetch initial cart state from sessionStorage after the component mounts
+  useEffect(() => {
+    const storedCart = sessionStorage.getItem("cart");
+
+    if (storedCart) {
+      dispatch({ type: "INITIALIZE_CART", payload: JSON.parse(storedCart) });
+    }
+
+    setCartInitialized(true);
+  }, []);
 
   // Sync the cart state with sessionStorage whenever it changes
   useEffect(() => {
-    sessionStorage.setItem("cart", JSON.stringify(cart));
-  }, [cart]);
+    if (cartInitialized) {
+      sessionStorage.setItem("cart", JSON.stringify(cart));
+    }
+  }, [cart, cartInitialized]);
 
   return (
     <CartContext.Provider value={{ cart, dispatch }}>
@@ -48,6 +55,7 @@ export const CartProvider = ({ children }) => {
   );
 };
 
+// Custom hook to use CartContext
 export const MyCartContext = () => {
   return useContext(CartContext);
 };

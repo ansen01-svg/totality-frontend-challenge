@@ -1,4 +1,3 @@
-import { useRouter } from "next/navigation";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 
 export default function AuthenticatedContent(props) {
@@ -38,18 +37,16 @@ export function SignOutBtnHolder({ handleClose }) {
         { cache: "no-store" }
       );
 
-      if (response.status === 200) {
-        // handleClose();
-        window.location.reload();
-      } else {
+      if (response.status !== 200) {
         const data = await response.json();
         console.log(data);
-        // handleClose();
         return;
       }
+
+      sessionStorage.clear();
+      window.location.href = "/";
     } catch (error) {
-      console.log(error);
-      // handleClose();
+      console.error("logout error:", error);
     }
   };
 

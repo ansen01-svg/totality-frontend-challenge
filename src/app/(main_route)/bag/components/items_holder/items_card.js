@@ -38,7 +38,7 @@ function DetailsHolder({ item }) {
   };
 
   return (
-    <div className="w-full h-[150px] text-[14px] text-black lg:w-[60%] lg:h-[190px] lg:text-[13px]">
+    <div className="w-full h-[150px] text-[13px] text-black lg:w-[60%] lg:h-[190px]">
       <div className="w-full px-5 py-2 flex flex-col items-start justify-center">
         <p>{type}</p>
         <p>

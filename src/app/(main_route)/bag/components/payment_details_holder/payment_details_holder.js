@@ -22,7 +22,21 @@ export default function PaymentDetailsHolder({ cart, token }) {
   };
 
   return (
-    <div className="w-full px-5 py-5 text-[14px] text-black border-[1px] border-slate-200 lg:w-[25vw] lg:text-[13px] rounded-md shadow-sm">
+    <div className="w-full border-[1px] border-slate-200 lg:w-[25vw] rounded-md shadow-sm">
+      <PaymentDetailsCard
+        cart={cart}
+        getTotalPrice={getTotalPrice}
+        button={<PlaceOrderButton placeOrder={placeOrder} />}
+      />
+    </div>
+  );
+}
+
+export function PaymentDetailsCard(props) {
+  const { cart, getTotalPrice, button } = props;
+
+  return (
+    <div className="w-full px-5 py-5 text-[13px] text-black">
       <div className="w-full py-2 flex flex-col items-start justify-center gap-5">
         <p className="font-medium">
           PRICE DETAILS ({cart && cart.length} Items)
@@ -44,14 +58,20 @@ export default function PaymentDetailsHolder({ cart, token }) {
         <p>Total Amount</p>
         <p>Rs. {getTotalPrice()}</p>
       </div>
-      <div className="w-full py-2">
-        <button
-          className="w-full py-2 bg-[#e71c28] text-white font-medium rounded-md"
-          onClick={placeOrder}
-        >
-          PLACE ORDER
-        </button>
-      </div>
+      {button && button}
+    </div>
+  );
+}
+
+function PlaceOrderButton({ placeOrder }) {
+  return (
+    <div className="w-full py-2">
+      <button
+        className="w-full py-2 bg-[#e71c28] text-white font-medium rounded-md"
+        onClick={placeOrder}
+      >
+        PLACE ORDER
+      </button>
     </div>
   );
 }

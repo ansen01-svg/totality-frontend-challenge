@@ -6,7 +6,7 @@ export default function Button(props) {
       <button
         type="submit"
         disabled={disableBtn}
-        className="w-full h-[50px] bg-[#e71c28] text-white font-medium rounded-lg hover:bg-primaryLight disabled:bg-primaryLight"
+        className="w-full h-[50px] bg-[#e71c28] text-white font-medium rounded-md hover:bg-primaryLight disabled:bg-primaryLight"
       >
         {title}
       </button>

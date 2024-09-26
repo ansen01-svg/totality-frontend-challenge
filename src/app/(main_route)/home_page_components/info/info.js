@@ -6,7 +6,7 @@ import AirOutlinedIcon from "@mui/icons-material/AirOutlined";
 
 export default function Info() {
   return (
-    <div className="w-full py-16 flex flex-col items-center justify-center gap-10">
+    <div className="w-full px-6 lg:px-12 py-20 flex flex-col items-center justify-center gap-10">
       <div>
         <h1 className="text-[20px] lg:font-semibold lg:text-3xl">
           Why Use EasyRentals

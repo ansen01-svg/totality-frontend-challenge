@@ -4,7 +4,7 @@ export default function Field(props) {
   const { value, handleChange, label, type, name, handleClick, icon } = props;
 
   return (
-    <div className="w-full flex items-center justify-items-center h-[60px] px-4 pt-1 border-[1px] border-slate-200 rounded-lg">
+    <div className="w-full flex items-center justify-items-center h-[60px] px-4 pt-1 border-[1px] border-slate-200 rounded-md">
       <TextField
         id={name}
         variant="standard"

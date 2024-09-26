@@ -28,6 +28,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "images.nobroker.in",
       },
+      {
+        protocol: "https",
+        hostname: "media.istockphoto.com",
+      },
     ],
   },
 };

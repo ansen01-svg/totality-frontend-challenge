@@ -2,10 +2,9 @@ import { cookies } from "next/headers";
 import PageContent from "./page_content";
 
 export const metadata = {
-  title:
-    "Wide Selection of Rental Cars | Book a car on rent with Carko.in now!",
+  title: "EasyRentals | Secure Checkout for Your New Rental Home",
   description:
-    "Explore a wide selection of rental cars at Carko.in. From economy to luxury, find the perfect vehicle for your needs. Book your car rental today!",
+    "Complete your booking on EasyRentals with a secure and seamless checkout process. Confirm your rental details and make hassle-free payments to secure your new home today!",
 };
 
 export default function Home({ searchParams }) {

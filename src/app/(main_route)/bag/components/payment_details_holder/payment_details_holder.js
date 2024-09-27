@@ -67,7 +67,7 @@ function PlaceOrderButton({ placeOrder }) {
   return (
     <div className="w-full py-2">
       <button
-        className="w-full py-2 bg-[#e71c28] text-white font-medium rounded-md"
+        className="w-full py-2 bg-[#e71c28] text-white font-medium rounded-md hover:bg-primaryLight disabled:bg-primaryLight"
         onClick={placeOrder}
       >
         PLACE ORDER

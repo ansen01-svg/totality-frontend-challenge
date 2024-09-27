@@ -77,7 +77,7 @@ export default function FormHolder() {
             </Select>
           </FormControl>
         </div>
-        <div className="w-[25%] h-full border-l-[1px] border-slate-200 lg:w-[22%]">
+        <div className="w-[28%] h-full border-l-[1px] border-slate-200 lg:w-[22%]">
           <button
             className="w-full h-full bg-[#e71c28] text-white flex items-center justify-center gap-2 hover:bg-primaryLight disabled:bg-primaryLight rounded-r-md"
             type="submit"

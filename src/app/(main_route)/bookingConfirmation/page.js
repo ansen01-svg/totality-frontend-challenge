@@ -1,10 +1,8 @@
 import PageContent from "./page_content";
 
 export const metadata = {
-  title:
-    "Wide Selection of Rental Cars | Book a car on rent with Carko.in now!",
-  description:
-    "Explore a wide selection of rental cars at Carko.in. From economy to luxury, find the perfect vehicle for your needs. Book your car rental today!",
+  title: "Booking Confirmed | EasyRentals – Your Home Awaits",
+  description: "Your booking is confirmed! Thank you for choosing EasyRentals.",
 };
 
 export default function Home() {

@@ -14,7 +14,7 @@ export default function RestHolderSection(props) {
   ];
 
   return (
-    <div className="w-full flex flex-col items-center justify-center gap-6 lg:flex-1">
+    <div className="w-full flex flex-col items-center justify-center gap-6 lg:w-[calc(100%-20vw-40px)]">
       <InfoHolder numberOfProperties={filteredProperties.length} city={city} />
       {filtersArr.length > 0 && (
         <FilterOptionsDisplayHolder

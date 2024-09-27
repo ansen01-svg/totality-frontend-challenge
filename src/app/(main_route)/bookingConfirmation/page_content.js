@@ -15,7 +15,7 @@ export default function PageContent() {
 
   return (
     <div className="w-full h-[90vh] flex items-center justify-center">
-      <h1 className="text-[20px] text-primary font-bold text-center">
+      <h1 className="mb-12 text-[20px] text-primary font-bold text-center lg:text-[24px]">
         Thank You For Booking With Us.
       </h1>
     </div>

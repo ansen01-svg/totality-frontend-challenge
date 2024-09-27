@@ -7,7 +7,7 @@ export default function Banner() {
         <h1 className="text-[15px] text-primary lg:font-semibold lg:text-[20px]">
           Rent with ease, live with joy
         </h1>
-        <h2 className="text-[22px] lg:font-semibold lg:text-[40px]">
+        <h2 className="text-[20px] lg:font-semibold lg:text-[40px]">
           Find the home that fits your journey
         </h2>
       </div>

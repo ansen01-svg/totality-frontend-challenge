@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Totality Frontend Challenge:
 
-## Getting Started
+# EasyRentals (Property Rentals Platform)
 
-First, run the development server:
+This is a property rentals platform built with **Next.js**, **TailwindCSS**, and **MongoDB**, utilizing **MaterialUI** and **Swiper.js** for UI components and sliders. The platform allows users to search, filter, and rent properties, while storing their session data locally and handling user authentication through MongoDB.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Property Search**: Users can search for rental properties based on location via a dropdown menu.
+- **Property Listings**: After searching, users are redirected to a listings page where they can apply filters to refine their search.
+- **Add to Cart**: Users can add selected properties to their cart.
+- **Cart Management**: Users can view, add, or remove properties from their cart and proceed to checkout.
+- **User Authentication**: User credentials (email, password) are stored in the database to enable avatar display on login.
+- **Checkout Process**: Users can finalize their orders by entering additional details and payment information (not stored in the database).
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Framework**: [Next.js]
+- **Styling**: [TailwindCSS]
+- **Database**: [MongoDB]
+- **UI Libraries**:
+  - [MaterialUI]
+  - [Swiper.js](https://swiperjs.com/) - For implementing sliders and carousels.
 
-## Learn More
+## Key Libraries
 
-To learn more about Next.js, take a look at the following resources:
+- **React Context API**: Used to share the cart state across different components in the app.
+- **Session Storage**: The cart data is stored in the browser's session storage and persists during the session.
+- **Dummy JSON Data**: Property listings are fetched locally from a JSON file instead of the database.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Home Page**: Users can search for properties by selecting a location from the dropdown.
+- **Property Listings Page**: Filterable list of available properties based on the selected location.
+- **Cart Page**: View selected properties, modify the cart, and proceed to checkout.
+- **Checkout Page**: Enter additional information and card details for booking completion (card details are not stored).
 
-## Deploy on Vercel
+## How to Run
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone the repository:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   git clone https://github.com/ansen01-svg/totality-frontend-challenge.git
+   cd property-rentals-platform
+
+2. Install dependencies:
+
+   npm install
+
+3. Start the development server:
+
+   npm run dev

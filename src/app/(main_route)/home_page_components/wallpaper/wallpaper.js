@@ -3,11 +3,15 @@ import Image from "next/image";
 export default function Wallpaper() {
   return (
     <div className="w-full h-[calc(600px+160px)] py-20">
-      <div className="w-full h-full relative">
-        <div className="absolute top-16 left-[180px] text-[22px] text-white z-20 lg:text-[36px]">
-          <p>Your Rental,</p>
-          <p>Your Timeline,</p>
-          <p>Your Way,</p>
+      <div className="w-full h-full mt-6 relative">
+        <div className="w-full absolute top-0 left-0 mt-10 text-[25px] text-white z-20 lg:text-[40px]">
+          <p className="text-center lg:text-left lg:ml-24 lg:mt-5">
+            Your Rental,
+          </p>
+          <p className="text-center lg:text-left lg:ml-24 lg:mt-5">
+            Your Timeline,
+          </p>
+          <p className="text-center lg:text-left lg:ml-24 lg:mt-5">Your Way.</p>
         </div>
         <Image
           src={

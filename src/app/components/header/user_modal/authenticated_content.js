@@ -52,7 +52,7 @@ export function SignOutBtnHolder({ handleClose }) {
 
   return (
     <div className="w-full px-5 text-[14px]">
-      <button className="w-full text-left" onClick={signOut}>
+      <button className="w-full text-left hover:text-primary" onClick={signOut}>
         Sign out
       </button>
     </div>
